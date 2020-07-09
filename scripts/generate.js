@@ -14,7 +14,7 @@ for (let svgFile of svgFiles) {
   if (!path) continue;
 
   const fileContent =
-`import React from 'react';
+`import * as React from 'react';
 
 const ${name}Icon = ({ width = 24, height = 24, viewBox = '0 0 24 24', className, children, ...props }) => {
   let classes = 'mdi-icon';

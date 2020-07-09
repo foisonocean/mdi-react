@@ -1,5 +1,5 @@
 {
-  "name": "mdi-react",
+  "name": "mdi-react-es",
   "version": "2.1.19",
   "description": "Material Design Icons for React",
   "keywords": [
@@ -7,22 +7,22 @@
     "react",
     "material",
     "design",
-    "icons"
+    "icons",
+    "esm"
   ],
-  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/levrik/mdi-react.git"
+    "url": "git+ssh://git@github.com/foisonocean/mdi-react-es.git"
   },
   "scripts": {
-    "prepublish": "cd .. && yarn build && cd publish && cp ../README.md README.md && cp ../LICENSE LICENSE"
+    "prepublish": "cd .. && pnpm run build && cd publish && cp ../README.md README.md && cp ../LICENSE LICENSE"
   },
-  "author": "Levin Rickert <me@levrik.io>",
+  "author": "foisonocean <hronro@gmail.com>",
   "license": "(MIT AND OFL-1.1)",
   "bugs": {
-    "url": "https://github.com/levrik/mdi-react/issues"
+    "url": "https://github.com/foisonocean/mdi-react-es/issues"
   },
-  "homepage": "https://github.com/levrik/mdi-react",
+  "homepage": "https://github.com/foisonocean/mdi-react-es",
   "peerDependencies": {
     "react": ">=0.14.0"
   }
