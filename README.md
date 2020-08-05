@@ -1,4 +1,4 @@
-# mdi-react-es [![npm package](https://img.shields.io/npm/v/mdi-reactes.svg?style=flat-square)](https://npmjs.org/package/mdi-react-es)
+# mdi-react-es [![npm package](https://img.shields.io/npm/v/mdi-react-es.svg?style=flat-square)](https://npmjs.org/package/mdi-react-es)
 [Material Design Icons](https://materialdesignicons.com) for React packaged as single components
 
 ## Introduction
