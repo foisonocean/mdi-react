@@ -14,7 +14,7 @@
   "homepage": "https://github.com/foisonocean/mdi-react-es",
   "scripts": {
     "clean": "rimraf build && rimraf publish/*.js",
-    "build": "git submodule update --init && pnpm run clean && mkdir build && node scripts/generate.js && babel build --out-dir publish"
+    "build": "pnpm run clean && mkdir build && node scripts/generate.js && babel build --out-dir publish"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
